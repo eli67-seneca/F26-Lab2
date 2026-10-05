@@ -12,3 +12,13 @@
 # Use a while loop to create program that counts down from 10 with timer to 1.
 # When you reach 1 end the loop and print blast off!
 
+timer = 10
+
+while timer > 0:
+    print(timer)
+    timer -= 1
+
+print("Blast off!")
+
+# To make this thing actually count down from ten seconds,
+# put it in an async function.
